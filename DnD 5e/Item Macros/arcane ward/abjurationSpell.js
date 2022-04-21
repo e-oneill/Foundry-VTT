@@ -1,3 +1,5 @@
+/* BASED ON KUFFEH's MACROS: https://github.com/Kuffeh1/Foundry*/
+
 const lastArg = args[args.length - 1];
 let tactor;
 console.log(lastArg)
