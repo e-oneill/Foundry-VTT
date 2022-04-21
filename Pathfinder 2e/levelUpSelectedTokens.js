@@ -9,9 +9,9 @@ async function levelUp(selectedActor, proportionalHealing) {
         {
           console.log("Selected player character: " + name);
           console.log(selectedActor)
-          currXP = selectedActor.data.data.details.xp.value;
-          xpToLevel = selectedActor.data.data.details.xp.max;
-          currLevel = selectedActor.data.data.details.level.value;
+          var currXP = selectedActor.data.data.details.xp.value;
+          var xpToLevel = selectedActor.data.data.details.xp.max;
+          var currLevel = selectedActor.data.data.details.level.value;
           if (currXP >= xpToLevel)
           {
               console.log(name + " has " + currXP + " xp, enough to level up");
